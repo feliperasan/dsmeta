@@ -18,7 +18,7 @@ public class Sale {
     private String sellerName;
     private Integer visited;
     private Integer deals;
-    private Integer amount;
+    private Double amount;
     private LocalDate date;
 
     public Sale() {
@@ -57,11 +57,11 @@ public class Sale {
         this.deals = deals;
     }
 
-    public Integer getAmount() {
+    public Double getAmount() {
         return amount;
     }
 
-    public void setAmount(Integer amount) {
+    public void setAmount(Double amount) {
         this.amount = amount;
     }
 
